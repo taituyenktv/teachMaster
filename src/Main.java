@@ -32,10 +32,7 @@ public class Main {
             menu.showMenu();
             int choose = Integer.parseInt(sc.nextLine());
             if (choose == 6) break;
-            while (choose <= 0 || choose > 6) {
-                System.out.println("Bạn chọn sai số mời bạn chọn lại!");
-                choose = Integer.parseInt(sc.nextLine());
-            }
+
 
             switch (choose) {
                 case 1:

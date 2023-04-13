@@ -12,6 +12,10 @@ public class StudentHandle {
 
         System.out.println("Mời bạn nhập tuổi: ");
         int age = Integer.parseInt(sc.nextLine());
+        while (age <= 0 ) {
+            System.out.println("Mời bạn nhập lại tuổi!");
+            age = Integer.parseInt(sc.nextLine());
+        }
 
         System.out.println("Mời bạn nhập học lực: ");
         String rank = sc.nextLine();
