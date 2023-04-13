@@ -11,6 +11,10 @@ public class TeacherHandle {
 
         System.out.println("Mời bạn nhập tuổi của giảng viên : ");
         int age= Integer.parseInt(sc.nextLine());
+        while (age <= 0 ) {
+            System.out.println("Mời bạn nhập lại tuổi!");
+            age = Integer.parseInt(sc.nextLine());
+        }
 
         System.out.println("Mời bạn nhập Môn giảng dạy");
         String teachingSubject = sc.nextLine();

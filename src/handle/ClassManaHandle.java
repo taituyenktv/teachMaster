@@ -11,6 +11,10 @@ public class ClassManaHandle {
 
         System.out.println("Mời nhập tuổi : ");
         int age = Integer.parseInt(sc.nextLine());
+        while (age <= 0 ) {
+            System.out.println("Mời bạn nhập lại tuổi!");
+            age = Integer.parseInt(sc.nextLine());
+        }
 
         System.out.println("Mời nhập tên lớp quản lý : ");
         String className = sc.nextLine();
