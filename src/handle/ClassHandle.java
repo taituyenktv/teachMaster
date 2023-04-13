@@ -55,7 +55,7 @@ public class ClassHandle {
         return students;
     }
     public ArrayList<Student> clearStudent(Scanner sc, ArrayList<Student> students,ArrayList<Student> clStudent){
-        System.out.println("Mời bạn nhập ID học sinh cần thay đổi học lực: ");
+        System.out.println("Mời bạn nhập ID học sinh cần xóa khỏi danh sách: ");
         int id = Integer.parseInt(sc.nextLine());
         for (Student cl : students) {
             if (id == cl.getId()) {

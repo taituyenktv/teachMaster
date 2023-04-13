@@ -57,13 +57,9 @@ public class Main {
                 case 4:
                     ArrayList<Student> clStudent =new ArrayList<>();
                     classHandle.clearStudent(sc,students,clStudent);
-                    students.remove(clStudent);
-                    
+                    students.removeAll(clStudent);
+
                     break;
-
-
-
-
 
             }
         } while (true);
